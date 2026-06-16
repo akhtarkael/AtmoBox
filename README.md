@@ -53,10 +53,10 @@ Sistem menggunakan model komputasi **hibrida** yang menggabungkan FSM, FreeRTOS,
                    │ FreeRTOS
         ┌──────────┴───────────┐
         │    networkTask       │  ← Permanent background task
-        │  - WiFi reconnect   │
-        │  - NTP sync         │
-        │  - OpenWeatherMap   │
-        │  - Telegram Bot API │
+        │  - WiFi reconnect    │
+        │  - NTP sync          │
+        │  - OpenWeatherMap    │
+        │  - Telegram Bot API  │
         └──────────────────────┘
         ┌──────────────────────┐
         │    marioTask         │  ← Transient (booting only)
